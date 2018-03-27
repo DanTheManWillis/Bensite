@@ -1,0 +1,62 @@
+body { 
+	font: 80% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+	background: white url(ben.png) no-repeat top right; 
+	background-size: 150px 250px;
+	}
+p { 
+	margin-top: 5px; 
+	text-align: justify;
+	}
+h1 { 
+	font: italic normal 5em georgia, sans-serif;
+	letter-spacing: 1px; 
+	text-align:center;
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+h2 {
+	font: italic normal 4em georgia, sans-serif;
+	text-align:center;
+	color: cream;
+}
+h4 {
+	font: italic normal 2em georgia, sans-serif;
+	letter-spacing: 1px; 
+	text-align:center;
+	margin-bottom: 0; 
+	color: maroon;
+}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:hover, a:focus, a:active {  
+	color: #9685BA;
+	}
+
+
+/* specific divs */
+.sidenav { 
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: brown; 
+	overflow-x: hidden;
+	padding-top: 20px;
+	}
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.main {
+	margin-left: 200px;
+}
