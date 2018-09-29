@@ -68,6 +68,6 @@ a:hover, a:focus, a:active {
     height: 1.88889;
     background-color: gray;
     color: white;
-    font: italic normal georgia, sans-serif;
+    font: italic normal 1em georgia, sans-serif;
     text-align: center;
 }
